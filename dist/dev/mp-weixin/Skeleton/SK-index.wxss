@@ -1,0 +1,32 @@
+
+.skeleton-top.data-v-f1c91273{
+  width: 400rpx;
+  margin-left: 20rpx;
+  height: var(--f1c91273-menu_height);
+  margin-top: var(--f1c91273-menu_top);
+}
+.skeleton-img.data-v-f1c91273{
+  height: 300rpx;
+  margin: 20rpx;
+}
+.vaccine.data-v-f1c91273{
+  display: flex;
+  justify-content: space-between;
+}
+.vaccine text.data-v-f1c91273{
+  width: 25%;
+  margin: 20rpx;
+  box-sizing: border-box;
+  height: 100rpx;
+}
+.phy text.data-v-f1c91273{
+  width: 50% !important;
+  height: 200rpx;
+}
+.regist.data-v-f1c91273{
+  flex-wrap: wrap;
+}
+.regist text.data-v-f1c91273{
+  width: calc(33% - 20rpx*2);
+  margin: 20rpx;
+}

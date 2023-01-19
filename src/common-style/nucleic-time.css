@@ -1,0 +1,62 @@
+/* ----------y预约时间段------- */
+/* 可预约时段 */
+.nucleic-time{
+  background-color: #ffffff;
+  padding: 20rpx;
+  margin: 20rpx;
+  border-radius: 20rpx;
+}
+.nucleic-Title{
+  font-weight: bold;
+}
+.scroll-view_H{
+  white-space: nowrap;
+  margin-top: 20rpx;
+}
+.nucleic-time-flex{
+  display: flex;
+  align-items: center;
+}
+.nucleic-time-flex view{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rpx 20rpx;
+  margin-right: 20rpx;
+  border-radius: 10rpx;
+}
+
+/* 选择成员 */
+.popups-title{
+  font-size: 35rpx;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  padding: 20rpx 0;
+}
+.member-view{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20rpx;
+}
+.member-view image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.member-view text:nth-child(2){
+  flex: 1;
+  padding: 0 40rpx;
+  font-weight: bold;
+}
+.member-view text:nth-child(3){
+  color: #0176ff;
+}
+.select-submit{
+  background-color: #0176ff;
+  color: #ffffff;
+  border-radius: 10rpx;
+  text-align: center;
+  padding: 20rpx 0;
+  margin: 50rpx 20rpx 68rpx 20rpx;
+}

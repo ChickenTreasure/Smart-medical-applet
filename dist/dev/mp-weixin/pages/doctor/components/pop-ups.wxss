@@ -1,0 +1,97 @@
+
+  /* 选择成员 */
+  /* ----------y预约时间段------- */
+  /* 可预约时段 */
+.nucleic-time.data-v-633e66e5{
+  background-color: #ffffff;
+  padding: 20rpx;
+  margin: 20rpx;
+  border-radius: 20rpx;
+}
+.nucleic-Title.data-v-633e66e5{
+  font-weight: bold;
+}
+.scroll-view_H.data-v-633e66e5{
+  white-space: nowrap;
+  margin-top: 20rpx;
+}
+.nucleic-time-flex.data-v-633e66e5{
+  display: flex;
+  align-items: center;
+}
+.nucleic-time-flex view.data-v-633e66e5{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rpx 20rpx;
+  margin-right: 20rpx;
+  border-radius: 10rpx;
+}
+  /* 选择成员 */
+.popups-title.data-v-633e66e5{
+  font-size: 35rpx;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  padding: 20rpx 0;
+}
+.member-view.data-v-633e66e5{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20rpx;
+}
+.member-view image.data-v-633e66e5{
+  width: 80rpx;
+  height: 80rpx;
+}
+.member-view text.data-v-633e66e5:nth-child(2){
+  flex: 1;
+  padding: 0 40rpx;
+  font-weight: bold;
+}
+.member-view text.data-v-633e66e5:nth-child(3){
+  color: #0176ff;
+}
+.select-submit.data-v-633e66e5{
+  background-color: #0176ff;
+  color: #ffffff;
+  border-radius: 10rpx;
+  text-align: center;
+  padding: 20rpx 0;
+  margin: 50rpx 20rpx 68rpx 20rpx;
+}
+.popups.data-v-633e66e5{
+    /* height: 900rpx;
+    overflow-y: hidden; */
+    width: 100%;
+    background-color: #ffffff;
+}
+.popups-title.data-v-633e66e5{
+    font-size: 35rpx;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    padding: 20rpx 0;
+}
+.table-time.data-v-633e66e5{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40rpx 20rpx;
+}
+.table-time text.data-v-633e66e5{
+    width: 33.3%;
+    display: block;
+    text-align: center;
+    padding: 30rpx 0;
+    box-sizing: border-box;
+    color: #0176ff;
+    border: 1rpx solid #dfdfdf;
+}
+  /* 选择成员 */
+.backTime.data-v-633e66e5{
+    color: #ffffff !important;
+    background-color: #0176ff;
+    border: 1rpx solid #0176ff;
+}
+  

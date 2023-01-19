@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "河南省第一人民医院",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "sk-index": "../../Skeleton/SK-index"
+  }
+}

@@ -1,0 +1,31 @@
+
+.regist-view.data-v-70dc9f2c{
+    display: flex;
+    justify-content: space-between;
+}
+.regist-left.data-v-70dc9f2c{
+    background-color: #f5f5f5;
+    width: 200rpx;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: auto;
+}
+.regist-left text.data-v-70dc9f2c{
+    display: block;
+    padding: 25rpx;
+}
+.addcolor.data-v-70dc9f2c{
+    background-color: #ffffff;
+    color: #2c76ef;
+}
+.regist-right.data-v-70dc9f2c{
+    padding-left: 200rpx;
+    flex: 1;
+}
+.regist-right view.data-v-70dc9f2c{
+    padding: 25rpx;
+}
+  

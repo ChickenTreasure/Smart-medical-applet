@@ -1,0 +1,51 @@
+
+page{
+      background-color: #f6f6f6;
+}
+.reg-view{
+      background-color: #ffffff;
+      border-radius: 15rpx;
+      margin: 20rpx;
+      padding: 20rpx;
+}
+.reg-doctor image{
+      width: 100rpx;
+      height: 100rpx;
+      border-radius: 50%;
+      margin-right: 20rpx;
+}
+.reg-doctor{
+      display: flex;
+      align-items: center;
+      padding-bottom: 30rpx;
+}
+.reg-doctor view{
+      display: flex;
+      flex-direction: column;
+}
+.reg-doctor view text:nth-child(1){
+      font-weight: bold;
+}
+.reg-doctor view text:nth-child(2){
+      font-size: 27rpx;
+      padding-top: 10rpx;
+}
+.reg-order{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20rpx 0;
+}
+.reg-cancel{
+      display: flex;
+      justify-content: flex-end;
+      padding-top: 20rpx;
+}
+.reg-cancel text{
+      color: #0176ff;
+      border: 1rpx solid #0176ff;
+      padding: 15rpx 30rpx;
+      display: inline-block;
+      border-radius: 15rpx;
+}
+    

@@ -1,0 +1,67 @@
+
+page{
+  background-color: #fafafa;
+}
+.hpv-img{
+  height: 350rpx;
+}
+.hpv-img image{
+  height: 350rpx;
+  width: 100%;
+  display: block;
+}
+/* tab切换 */
+.tab-view{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+.tab-toggle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100rpx;
+  justify-content: center;
+  position: relative;
+}
+.checked{
+  width: 50rpx;
+  height: 8rpx;
+  background-color: #0d7cff;
+  position: absolute;
+  bottom: 0;
+}
+/* 疫苗列表 */
+.hpv-list{
+  background-color: #ffffff;
+  margin: 20rpx;
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20rpx;
+}
+.hpv-type{
+  font-size: 35rpx;
+}
+.hpv-age{
+  display: flex;
+  align-items: center;
+}
+.hpv-age text{
+  background-color: #f4f6fa;
+  padding: 7rpx;
+  font-size: 25rpx;
+  margin: 10rpx 10rpx 10rpx 0;
+}
+.hpv-price{
+  font-weight: bold;
+  color: #ff5f2c;
+}
+.hpv-reserve{
+  align-self: flex-end;
+  background-color: #0d7cff;
+  padding: 15rpx 30rpx;
+  border-radius: 40rpx;
+  color: #ffffff;
+}

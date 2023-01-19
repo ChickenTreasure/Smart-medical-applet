@@ -1,0 +1,1 @@
+<view class="Login-page"><image mode="aspectFill" src="https://diancan-1252107261.cos.accelerate.myqcloud.com/yiliao/denglu-yemian.jpg"></image><button bindtap="{{a}}">授权登陆</button></view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "核酸检测预约订单",
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "point": "../../../com-components/point"
+  }
+}

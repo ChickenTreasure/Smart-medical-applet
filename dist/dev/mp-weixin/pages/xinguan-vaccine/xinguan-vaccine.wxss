@@ -1,0 +1,175 @@
+
+  /* 表单提交 */
+  /* --------表单提交样式------ */
+.xinguan-view {
+	background-color: #ffffff;
+}
+.xinguan-flex {
+	display: flex;
+	align-items: center;
+	margin: 0 20rpx;
+	padding: 30rpx 0;
+	border-bottom: 1rpx solid #e4e4e4;
+}
+.xinguan-flex:last-child{
+	border: none;
+}
+.input-style {
+	color: #e4e4e4;
+}
+.xinguan-flex input {
+	padding: 10rpx;
+	flex: 1;
+	text-align: right;
+}
+.flex-left {
+	flex: 1;
+}
+.flex-left view {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.flex-left image {
+	width: 30rpx;
+	height: 30rpx;
+	display: block;
+	margin-left: 20rpx;
+}
+  /* ----------提交按钮:左右两边按钮------- */
+.submit{
+  background-color: #ffffff;
+  padding: 20rpx 0 68rpx 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  z-index: 99;
+}
+.submit text{
+  width: 40%;
+  text-align: center;
+  padding: 20rpx 0;
+  border-radius: 10rpx;
+}
+.submit text:nth-child(1){
+  background-color: #e8f2fe;
+  color: #3a75f3;
+}
+.submit text:nth-child(2){
+  background-color: #2c76ef;
+  color: #ffffff;
+}
+  /* 测评结果button按钮 */
+.submit button{
+  border: none;
+  width: 40%;
+  font-size: 33rpx;
+}
+.submit button:nth-child(1){
+  background-color: #e8f2fe;
+  color: #3a75f3;
+}
+.submit button:nth-child(2){
+  background-color: #2c76ef;
+  color: #ffffff;
+}
+  /* ---------提交按钮：合计价格-------- */
+.Total-view{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 20rpx 68rpx 20rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.Total-view text:nth-child(1){
+  font-weight: bold;
+  color: #ff5f2c;
+}
+.Total-view text:nth-child(2){
+  background-color: #0176ff;
+  padding: 15rpx 50rpx;
+  color: #ffffff;
+  border-radius: 10rpx;
+}
+page{
+    background-color: #f7f7f7;
+}
+  /* 预约地址 */
+.reserve-address{
+    background-color: #ffffff;
+    padding: 20rpx;
+    margin: 20rpx;
+    border-radius: 10rpx;
+}
+.reserve-address text{
+    display: block;
+}
+.reserve-name{
+    font-weight: bold;
+}
+.reserve-road{
+    padding: 20rpx 0;
+}
+.reserve-title{
+    display: flex;
+    align-items: center;
+}
+.reserve-title text{
+    background-color: #f7f7f7;
+    padding: 5rpx 20rpx;
+    font-size: 25rpx;
+    margin-right: 10rpx;
+}
+.Week{
+    background-color: #ffffff;
+    padding: 20rpx;
+    border-radius: 10rpx;
+    margin: 20rpx;
+    display: flex;
+    align-items: center;
+}
+.Week-flex{
+    display: flex;
+}
+.Week-style{
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 20rpx 0;
+    border-radius: 10rpx;
+    margin-right: 20rpx;
+}
+.Week-style text{
+    padding: 3rpx;
+}
+.Week-sup{
+    width: 150rpx;
+}
+.period-view{
+    background-color: #ffffff;
+    padding: 20rpx;
+    border-radius: 10rpx;
+    margin: 20rpx;
+}
+.period-title{
+    font-weight: bold;
+    margin-bottom: 20rpx;
+    display: block;
+}
+.Week-Down{
+    width: 200rpx;
+}
+  /* 选中加上样式 */
+.checkstyle{
+    background-color: #2c76ef !important;
+    color: #ffffff !important;
+}
+  

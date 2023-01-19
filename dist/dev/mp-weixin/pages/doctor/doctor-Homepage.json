@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "医生主页",
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "popups": "./components/pop-ups"
+  }
+}

@@ -1,0 +1,172 @@
+{
+    "pages": [{
+        "path": "pages/index/index",
+        "style": {
+            "navigationBarTitleText": "河南省第一人民医院",
+            "navigationStyle": "custom"
+        }
+    }, {
+        "path": "pages/mine/mine",
+        "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#e3efff"
+
+        }
+    }, {
+        "path": "pages/my-serve/my-registration/index",
+        "style": {
+            "navigationBarTitleText": "挂号记录"
+        }
+    }, {
+        "path": "pages/registered/registered",
+        "style": {
+            "navigationBarTitleText": "预约挂号"
+        }
+    }, {
+        "path": "pages/doctor/index",
+        "style": {
+            "navigationBarTitleText": "选择医生",
+            "navigationBarBackgroundColor": "#ffffff"
+        }
+    }, {
+        "path": "pages/doctor/doctor-Homepage",
+        "style": {
+            "navigationBarTitleText": "医生主页",
+            "navigationBarBackgroundColor": "#ffffff"
+        }
+    }, {
+        "path": "pages/video/video",
+        "style": {
+            "navigationBarTitleText": "医师课堂"
+        }
+    }, {
+        "path": "pages/self-test/topic",
+        "style": {
+            "navigationBarTitleText": "测评题目",
+            "navigationBarBackgroundColor": "#d6e8ff"
+        }
+    }, {
+        "path": "pages/self-test/result",
+        "style": {
+            "navigationBarTitleText": "测试结果",
+            "navigationBarBackgroundColor": "#d6e8ff"
+        }
+    }, {
+        "path": "pages/my-serve/phy-exam/index",
+        "style": {
+            "navigationBarTitleText": "体检预约订单",
+            "navigationBarBackgroundColor": "#ffffff"
+        }
+    }, {
+        "path": "pages/phy-exam/index",
+        "style": {
+            "navigationBarTitleText": "体检预约",
+            "navigationBarBackgroundColor": "#ffffff"
+        }
+    }, {
+        "path": "pages/phy-exam/Details",
+        "style": {
+            "navigationBarTitleText": "体检详情",
+            "navigationBarBackgroundColor": "#ffffff"
+        }
+    }, {
+        "path": "pages/graphics/index",
+        "style": {
+            "navigationBarTitleText": "图文咨询",
+            "navigationBarBackgroundColor": "#ffffff"
+        }
+    }, {
+        "path": "pages/my-serve/my-patient/my-patient",
+        "style": {
+            "navigationBarTitleText": "我的就诊人",
+            "navigationBarBackgroundColor": "#ffffff"
+        }
+    }, {
+        "path": "pages/my-serve/my-patient/add-patient",
+        "style": {
+            "navigationBarTitleText": "创建就诊人",
+            "navigationBarBackgroundColor": "#ffffff"
+        }
+    }, {
+        "path": "pages/my-serve/nucleic-acid/index",
+        "style": {
+            "navigationBarTitleText": "核酸检测预约订单",
+            "navigationBarBackgroundColor": "#ffffff"
+        }
+    }, {
+        "path": "pages/my-serve/xinguan/index",
+        "style": {
+            "navigationBarTitleText": "新冠疫苗"
+        }
+    }, {
+        "path": "pages/nucleic-acid/index",
+        "style": {
+            "navigationBarTitleText": "核酸检测预约",
+            "navigationBarBackgroundColor": "#ffffff"
+        }
+    }, {
+        "path": "pages/my-serve/hpv-view/index",
+        "style": {
+            "navigationBarTitleText": "HPV疫苗预约订单",
+            "navigationBarBackgroundColor": "#ffffff"
+        }
+    }, {
+        "path": "pages/xinguan-vaccine/xinguan-vaccine",
+        "style": {
+            "navigationBarTitleText": "新冠疫苗接种预约"
+        }
+    }, {
+        "path": "pages/hpv-vaccine/hpv-buy",
+        "style": {
+            "navigationBarTitleText": "HPV套餐详情"
+        }
+    }, {
+        "path": "pages/hpv-vaccine/hpv-vaccine",
+        "style": {
+            "navigationBarTitleText": "HPV疫苗"
+        }
+    }, {
+        "path": "pages/login-page/index",
+        "style": {
+            "navigationBarTitleText": "登录界面",
+            "navigationStyle": "custom"
+        }
+    }],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "static/tab/shouye-001.png",
+                "selectedIconPath": "static/tab/shouye-002.png"
+            },
+            {
+                "pagePath": "pages/registered/registered",
+                "text": "挂号",
+                "iconPath": "static/tab/guahao-001.png",
+                "selectedIconPath": "static/tab/guahao-002.png"
+            },
+            {
+                "pagePath": "pages/video/video",
+                "text": "医师课堂",
+                "iconPath": "static/tab/shipin-001.png",
+                "selectedIconPath": "static/tab/shouye-002.png"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "我的",
+                "iconPath": "static/tab/wode-001.png",
+                "selectedIconPath": "static/tab/wode-002.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+<page-container show="{{e}}" bindenter="{{f}}" bindclickoverlay="{{g}}"><view class="popups"><text class="popups-title">选择成员</text><view class="member-view"><image src="/static/other/touxiang.svg" mode="widthFix"></image><text>{{a}}</text><text bindtap="{{c}}">{{b}}</text></view><view class="select-submit" bindtap="{{d}}">提交预约</view></view></page-container>

@@ -1,0 +1,14 @@
+
+.point.data-v-1433db3c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200rpx;
+    color: #858585;
+}
+.point image.data-v-1433db3c{
+    display: block;
+    width: 230rpx;
+    height: 230rpx;
+}
+  

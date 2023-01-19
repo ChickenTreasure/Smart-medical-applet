@@ -1,0 +1,91 @@
+
+page{
+    background-color: #fafafa;
+}
+.Top-view{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50rpx;
+    height: 100rpx;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.Top-view view{
+    display: flex;
+    align-items: center;
+}
+.Top-view image{
+    width: 20rpx;
+    height: 20rpx;
+    display: block;
+    padding-left: 10rpx;
+}
+  /* 筛选条件 */
+.mask-view{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100rpx;
+    background-color: rgba(0,0,0,0.5);
+}
+.con-view{
+    background-color: #ffffff;
+    padding: 0 50rpx;
+    position: fixed;
+    top: 100rpx;
+    left: 0;
+    right: 0;
+}
+.con-view text{
+    display: block;
+    padding: 20rpx 0;
+}
+  /* 体检套餐 */
+.phy-exam-back{
+    background-color: #ffffff;
+    padding: 20rpx;
+    margin: 20rpx;
+    border-radius: 10rpx;
+}
+.phy-exam-type{
+    font-size: 35rpx;
+    font-weight: bold;
+}
+.phy-exam-flex image{
+    width: 200rpx;
+    height: 200rpx;
+    display: block;
+}
+.phy-exam-flex{
+    display: flex;
+    justify-content: center;
+    padding: 20rpx 0;
+    border-bottom: 1rpx solid #f6f6f6;
+}
+.phy-exam-flex view{
+    flex: 1;
+    padding-left: 20rpx;
+}
+.phy-exam-flex text{
+    display: block;
+}
+.phy-exam-title{
+    font-weight: bold;
+    padding-bottom: 20rpx;
+}
+.phy-exam-label{
+    color: #5555;
+}
+.phy-exam-price{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20rpx;
+    font-weight: bold;
+    color: #ff5f2c;
+}
+  

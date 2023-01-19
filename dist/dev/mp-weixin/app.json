@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/my-serve/my-registration/index",
+    "pages/registered/registered",
+    "pages/doctor/index",
+    "pages/doctor/doctor-Homepage",
+    "pages/video/video",
+    "pages/self-test/topic",
+    "pages/self-test/result",
+    "pages/my-serve/phy-exam/index",
+    "pages/phy-exam/index",
+    "pages/phy-exam/Details",
+    "pages/graphics/index",
+    "pages/my-serve/my-patient/my-patient",
+    "pages/my-serve/my-patient/add-patient",
+    "pages/my-serve/nucleic-acid/index",
+    "pages/my-serve/xinguan/index",
+    "pages/nucleic-acid/index",
+    "pages/my-serve/hpv-view/index",
+    "pages/xinguan-vaccine/xinguan-vaccine",
+    "pages/hpv-vaccine/hpv-buy",
+    "pages/hpv-vaccine/hpv-vaccine",
+    "pages/login-page/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab/shouye-001.png",
+        "selectedIconPath": "static/tab/shouye-002.png"
+      },
+      {
+        "pagePath": "pages/registered/registered",
+        "text": "挂号",
+        "iconPath": "static/tab/guahao-001.png",
+        "selectedIconPath": "static/tab/guahao-002.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "医师课堂",
+        "iconPath": "static/tab/shipin-001.png",
+        "selectedIconPath": "static/tab/shouye-002.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tab/wode-001.png",
+        "selectedIconPath": "static/tab/wode-002.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

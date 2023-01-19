@@ -1,0 +1,261 @@
+
+  /* 表单提交 */
+  /* --------表单提交样式------ */
+.xinguan-view {
+	background-color: #ffffff;
+}
+.xinguan-flex {
+	display: flex;
+	align-items: center;
+	margin: 0 20rpx;
+	padding: 30rpx 0;
+	border-bottom: 1rpx solid #e4e4e4;
+}
+.xinguan-flex:last-child{
+	border: none;
+}
+.input-style {
+	color: #e4e4e4;
+}
+.xinguan-flex input {
+	padding: 10rpx;
+	flex: 1;
+	text-align: right;
+}
+.flex-left {
+	flex: 1;
+}
+.flex-left view {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.flex-left image {
+	width: 30rpx;
+	height: 30rpx;
+	display: block;
+	margin-left: 20rpx;
+}
+  /* ----------提交按钮:左右两边按钮------- */
+.submit{
+  background-color: #ffffff;
+  padding: 20rpx 0 68rpx 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  z-index: 99;
+}
+.submit text{
+  width: 40%;
+  text-align: center;
+  padding: 20rpx 0;
+  border-radius: 10rpx;
+}
+.submit text:nth-child(1){
+  background-color: #e8f2fe;
+  color: #3a75f3;
+}
+.submit text:nth-child(2){
+  background-color: #2c76ef;
+  color: #ffffff;
+}
+  /* 测评结果button按钮 */
+.submit button{
+  border: none;
+  width: 40%;
+  font-size: 33rpx;
+}
+.submit button:nth-child(1){
+  background-color: #e8f2fe;
+  color: #3a75f3;
+}
+.submit button:nth-child(2){
+  background-color: #2c76ef;
+  color: #ffffff;
+}
+  /* ---------提交按钮：合计价格-------- */
+.Total-view{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 20rpx 68rpx 20rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.Total-view text:nth-child(1){
+  font-weight: bold;
+  color: #ff5f2c;
+}
+.Total-view text:nth-child(2){
+  background-color: #0176ff;
+  padding: 15rpx 50rpx;
+  color: #ffffff;
+  border-radius: 10rpx;
+}
+  /* ----------y预约时间段------- */
+  /* 可预约时段 */
+.nucleic-time{
+  background-color: #ffffff;
+  padding: 20rpx;
+  margin: 20rpx;
+  border-radius: 20rpx;
+}
+.nucleic-Title{
+  font-weight: bold;
+}
+.scroll-view_H{
+  white-space: nowrap;
+  margin-top: 20rpx;
+}
+.nucleic-time-flex{
+  display: flex;
+  align-items: center;
+}
+.nucleic-time-flex view{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rpx 20rpx;
+  margin-right: 20rpx;
+  border-radius: 10rpx;
+}
+  /* 选择成员 */
+.popups-title{
+  font-size: 35rpx;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  padding: 20rpx 0;
+}
+.member-view{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20rpx;
+}
+.member-view image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.member-view text:nth-child(2){
+  flex: 1;
+  padding: 0 40rpx;
+  font-weight: bold;
+}
+.member-view text:nth-child(3){
+  color: #0176ff;
+}
+.select-submit{
+  background-color: #0176ff;
+  color: #ffffff;
+  border-radius: 10rpx;
+  text-align: center;
+  padding: 20rpx 0;
+  margin: 50rpx 20rpx 68rpx 20rpx;
+}
+page {
+    background-color: #fafafa;
+}
+.nucleic-top {
+    background-color: #ffffff;
+    padding: 20rpx;
+}
+.nucleic-price {
+    display: flex;
+    align-items: center;
+}
+.nucleic-price image {
+    width: 100rpx;
+    height: 100rpx;
+    display: block;
+}
+.nucleic-price text {
+    display: block;
+    padding: 10rpx;
+}
+.pay-price text:nth-child(1) {
+    font-size: 35rpx;
+}
+.pay-price text:nth-child(2) {
+    font-weight: bold;
+    color: #ff5f2c;
+}
+  /* 提示 */
+.nucleic-hint {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20rpx;
+    font-size: 24rpx;
+}
+.nucleic-hint view {
+    display: flex;
+    align-items: center;
+}
+.nucleic-hint text {
+    padding-left: 10rpx;
+}
+  /* 地址 */
+.nucleic-address{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 20rpx;
+    margin: 20rpx;
+    border-radius: 20rpx;
+}
+.nucleic-address text{
+    display: block;
+}
+.nucleic-address image{
+    width: 40rpx;
+    height: 40rpx;
+}
+.nucleic-address view:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-color{
+    font-size: 25rpx;
+    padding-top: 20rpx;
+}
+  /* 个人信息 */
+.new-style{
+    margin: 20rpx;
+    border-radius: 20rpx;
+}
+  /* 采样 */
+.sam-Title{
+    font-weight: bold;
+}
+.sam-content{
+    margin-top: 20rpx;
+}
+.sam-content label{
+    background-color: #0176ff;
+    color: #ffffff;
+    border-radius: 10rpx;
+    padding: 5rpx 10rpx;
+    font-size: 28rpx;
+    display: inline-block;
+}
+.sam-content text{
+    display: block;
+    padding: 10rpx 0;
+    line-height: 1.5;
+    font-size: 28rpx;
+}
+  /* 选中加上样式 */
+.checkstyle{
+    background-color: #2c76ef !important;
+    color: #ffffff !important;
+}
+  

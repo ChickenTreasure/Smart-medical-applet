@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "挂号记录",
+  "usingComponents": {
+    "point": "../../../com-components/point"
+  }
+}

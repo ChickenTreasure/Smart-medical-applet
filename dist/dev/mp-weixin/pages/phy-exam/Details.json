@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "体检详情",
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "semen-mber": "../../com-components/se-member"
+  }
+}

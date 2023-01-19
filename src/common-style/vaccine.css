@@ -1,0 +1,56 @@
+/* --------疫苗预约公用------- */
+page{
+  background-color: #f6f6f6;
+}
+.xinguan-view{
+  background-color: #ffffff;
+  border-radius: 15rpx;
+  margin: 20rpx;
+  padding: 20rpx;
+}
+.name{
+  font-weight: bold;
+  border-bottom: 1rpx solid #e4e4e4;
+  display: block;
+  padding-bottom: 20rpx;
+  font-size: 35rpx;
+}
+.xinguan-order{
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.xinguan-order text:nth-child(1){
+  width: 150rpx;
+}
+.xinguan-order text:nth-child(2){
+  flex: 1;
+}
+.reg-cancel{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20rpx;
+}
+.reg-cancel text{
+  color: #0176ff;
+  border: 1rpx solid #0176ff;
+  padding: 15rpx 30rpx;
+  display: inline-block;
+  border-radius: 15rpx;
+}
+/* 含有价格 */
+.reg-price{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20rpx;
+}
+.reg-price text{
+  font-weight: bold;
+  display: inline-block;
+}
+/* 禁用取消预约按钮点击 */
+.prevent_style{
+  pointer-events: none;
+  border: 1rpx solid #999aaa !important;
+  color: #999aaa !important;
+}

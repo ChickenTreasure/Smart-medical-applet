@@ -1,0 +1,90 @@
+
+page {
+    background-color: #f7f7f7;
+}
+  /* 顶部 */
+.doctor-top{
+    background-color: #ffffff;
+    height: 150rpx;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: 1rpx solid #f2f2f2;
+}
+.all-text{
+    width: 150rpx;
+    text-align: center;
+    height: 150rpx;
+    line-height: 150rpx;
+    border-right: 1rpx solid #f2f2f2;
+}
+.scroll-view_H{
+    white-space: nowrap;
+    overflow: scroll;
+    width: 100%;
+    height: 150rpx;
+    line-height: 50rpx;
+}
+.week{
+    padding: 0 30rpx;
+    display: inline-block;
+    text-align: center;
+}
+.week text{
+    display: block;
+}
+.week text:nth-child(3){
+    font-size: 26rpx;
+}
+  /* 列表 */
+.doctor-list{
+    background-color: #ffffff;
+    padding: 40rpx 20rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1rpx solid #d3d3d8;
+}
+.doctor-list:last-child{
+    border: none !important;
+}
+.doctor-list image{
+    width: 150rpx;
+    height: 150rpx;
+    display: block;
+    border-radius: 50%;
+}
+.doctor-list text{
+    display: block;
+    padding: 5rpx 0;
+    color: #b1b2b3;
+}
+.doctor-name{
+    flex: 1;
+    padding: 0 10rpx;
+}
+.doctor-name text:nth-child(1){
+    font-size: 35rpx;
+    font-weight: bold;
+    color: #333 !important;
+}
+.doctor-name text:nth-child(3){
+    display:-webkit-box;
+    overflow: hidden; /*超出隐藏*/
+    text-overflow: ellipsis;/*隐藏后添加省略号*/
+    -webkit-box-orient:vertical; 
+    -webkit-line-clamp:1;
+}
+.about-doctor{
+    padding: 8rpx 30rpx;
+    border-radius: 30rpx;
+    border: 1rpx solid #0176ff;
+    color: #0176ff;
+}
+  /* 选中时间加上颜色 */
+.changeColor{
+    color: #0176ff;
+}
+  
