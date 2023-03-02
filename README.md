@@ -5,6 +5,16 @@
 
 主要技术栈: Vue3.2 + vue-cli + TypeScript + uniapp + vite。
 
+#### 使用教程：
+
+1.打开src/manifest.json文件，微信小程序配置里，更改为你自己的 小程序APPID
+
+2.打开src/pages/login-page/index.vue，第37行， 把appid和secret秘钥改为你自己的小程序appid和秘钥
+
+3.在根目录下执行 npm install(也可用pnpm，随意) 安装依赖，成功后， 再执行npm run dev:mp-weixin
+
+4.打开微信开发者工具，创建项目，目录选择dist/dev/mp-weixin，打开项目后编译即可出现
+
 #### 小程序演示
 ![image](https://user-images.githubusercontent.com/87047444/222321265-ad0d25d3-73af-44b7-b144-318a24bc410e.png)
 ![image](https://user-images.githubusercontent.com/87047444/222321337-ea42c6bf-ecd7-47c7-8cde-182c306662a4.png)
@@ -17,18 +27,6 @@
 ![image](https://user-images.githubusercontent.com/87047444/222321578-adbe71f1-2f2f-4307-84f0-81ad1cb3c903.png)
 ![image](https://user-images.githubusercontent.com/87047444/222321614-a7e64f72-762a-4ceb-9b51-20fb29bb82a7.png)
 
-
-
-
-#### 使用教程：
-
-1.打开src/manifest.json文件，微信小程序配置里，更改为你自己的 小程序APPID
-
-2.打开src/pages/login-page/index.vue，第37行， 把appid和secret秘钥改为你自己的小程序appid和秘钥
-
-3.在根目录下执行 npm install(也可用pnpm，随意) 安装依赖，成功后， 再执行npm run dev:mp-weixin
-
-4.打开微信开发者工具，创建项目，目录选择dist/dev/mp-weixin，打开项目后编译即可出现
 
 #### 参与贡献
 
